@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 export  class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-info">
+            <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor:"#007784"}}>
                 <div className="container-fluid">
-                    <a className="navbar-brand text-danger" href="/"><strong>News Monkey</strong></a>
+                    <a className="navbar-brand text-light" href="/"><strong>News Monkey</strong></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -14,7 +14,6 @@ export  class Navbar extends Component {
                             <li className="nav-item">
                                 <a className="nav-link text-light" aria-current="page" href="/">Home</a>
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
