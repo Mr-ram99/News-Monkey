@@ -11,26 +11,26 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link text-dark m-1 p-1" to="/">Home</Link>
+                                <Link className="nav-link text-dark m-2 py-1 px-2 text-center" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-dark m-1 p-1" to="/business">Business</Link>
+                                <Link className="nav-link text-dark m-2 py-1 px-2 text-center" to="/business">Business</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-dark m-1 p-1" to="/entertainment">Entertainment</Link>
+                                <Link className="nav-link text-dark m-2 py-1 px-2 text-center" to="/entertainment">Entertainment</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-dark m-1 p-1" to="/sports">Sports</Link>
+                                <Link className="nav-link text-dark m-2 py-1 px-2 text-center" to="/sports">Sports</Link>
                             </li>
                             
                             <li className="nav-item">
-                                <Link className="nav-link text-dark m-1 p-1" to="/health">Health</Link>
+                                <Link className="nav-link text-dark m-2 py-1 px-2 text-center" to="/health">Health</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-dark m-1 p-1" to="/science">Science</Link>
+                                <Link className="nav-link text-dark m-2 py-1 px-2 text-center" to="/science">Science</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-dark m-1 p-1" to="/technology">Technology</Link>
+                                <Link className="nav-link text-dark m-2 py-1 px-2 text-center" to="/technology">Technology</Link>
                             </li>
                         </ul>
                     </div>

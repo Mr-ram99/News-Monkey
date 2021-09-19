@@ -10,7 +10,7 @@ const App = () => {
   const apikey="ced035a95bc948339fe954824bfbb443";
   const [progress, setProgress] = useState(0);
 
-  setProgress =(progress)=>{
+  const setprogress =(progress)=>{
     setProgress(progress);
   }
 
@@ -24,25 +24,25 @@ const App = () => {
         />
         <Switch>
           <Route exact path="/">
-            <News setProgress={setProgress} apikey={apikey} key="general" category="general" pageSize={10} />
+            <News setProgress={setprogress} apikey={apikey} key="general" category="general" pageSize={10} />
           </Route>
           <Route exact path="/business">
-            <News setProgress={setProgress} apikey={apikey} key="business" category="business" pageSize={10} />
+            <News setProgress={setprogress} apikey={apikey} key="business" category="business" pageSize={10} />
           </Route>
           <Route exact path="/entertainment">
-            <News setProgress={setProgress} apikey={apikey} key="entertainment" category="entertainment" pageSize={10} />
+            <News setProgress={setprogress} apikey={apikey} key="entertainment" category="entertainment" pageSize={10} />
           </Route>
           <Route exact path="/sports">
-            <News setProgress={setProgress} apikey={apikey} key="sports" category="sports" pageSize={10} />
+            <News setProgress={setprogress} apikey={apikey} key="sports" category="sports" pageSize={10} />
           </Route>
           <Route exact path="/science">
-            <News setProgress={setProgress} apikey={apikey} key="science" category="science" pageSize={10} />
+            <News setProgress={setprogress} apikey={apikey} key="science" category="science" pageSize={10} />
           </Route>
           <Route exact path="/technology">
-            <News setProgress={setProgress} apikey={apikey} key="technology" category="technology" pageSize={10} />
+            <News setProgress={setprogress} apikey={apikey} key="technology" category="technology" pageSize={10} />
           </Route>
           <Route exact path="/health">
-            <News setProgress={setProgress} apikey={apikey} key="health" category="health" pageSize={10} />
+            <News setProgress={setprogress} apikey={apikey} key="health" category="health" pageSize={10} />
           </Route>
         </Switch>
       </Router>
