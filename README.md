@@ -11,8 +11,8 @@ This is a daily news web application which includes categories like general, bus
   
 ## Screenshots
 
-![](/src/Screenshots/General.PNG)
-![](/src/Screenshots/Technology.PNG)
+![](/src/Screenshots/General.png)
+![](/src/Screenshots/Technology.png)
 
   
 ## Authors
